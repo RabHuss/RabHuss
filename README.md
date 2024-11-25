@@ -46,6 +46,7 @@ Reporting and Communication:
 
 Data visualization, including line plots of active cases and feature importance, makes it easier to convey findings to the public or stakeholders. Informative visuals can increase awareness and help the public understand the importance of following safety measures.
 
+Below is the link to the video demo of the project.     https://drive.google.com/file/d/1T6Yp5VSN_FNXFS7MsBYRUPhleldBpIaB/view?usp=sharing
 
 
 
