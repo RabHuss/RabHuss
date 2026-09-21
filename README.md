@@ -1,52 +1,111 @@
+ ### **Rabiatu Hussaini** 
 
-The purpose of this code is to analyze and model COVID-19 data, providing insights into patterns, forecasting future cases, and assessing risk factors associated with high mortality. Here’s a breakdown of the key objectives and steps:
+### Data Scientist | Data Analyst | Product Designer | Mathematics Researcher
 
-Data Loading and Cleaning:
+I’m a Data Scientist and Analyst with a strong foundation in Mathematics and a growing specialization in Computational Statistics and Machine Learning. I enjoy working with data, building practical digital solutions, and using technology to solve real-world problems.
 
-Import libraries, load the data, and inspect it for structural details, null values, and duplicates.
-Handle missing values through forward fill and convert date columns to a datetime format for time-series analysis.
-Exploratory Data Analysis (EDA):
+[LinkedIn](http://www.linkedin.com/in/rabiatu-hussaini-592b26317 
+) • [Email](rabiatuhussaini1@gmail.com)
 
-Visualize trends over time, particularly in active cases and deaths, to understand the pandemic's progression.
-Generate and interpret a correlation heatmap for numeric features to assess relationships, which can inform feature selection in modeling.
-Feature Engineering:
+---
 
-Scale numerical features for model consistency and add calculated metrics like daily growth rate and mortality rate.
-Time-Series Forecasting:
+## 🔍 What I Do
 
-Using an ARIMA model, forecast the trend of active cases. This provides an outlook on possible future cases based on historical patterns.
-Classification Model:
+- 📊 Analyze, clean, visualize, and interpret data to generate meaningful insights.
+- 🤖 Build and explore Machine Learning models using Python and real-world datasets.
+- 🧮 Apply mathematical and statistical methods to computational and research problems.
+- 🎨 Design practical, user-centered digital products and interfaces.
+- 🌍 Explore technology-driven solutions in education, healthcare, and community development.
 
-Build a Random Forest classification model to predict high mortality severity (cases with a mortality rate above 2%).
-Evaluate the model's accuracy and performance, assessing how well it predicts high-risk cases.
-Data Visualization and Reporting:
+---
 
-Visualize feature importance within the Random Forest model to highlight which factors contribute most to mortality risk.
-This analysis provides a structured approach to understanding and forecasting COVID-19 trends and risk factors for severe outcomes, which could support public health decision-making.
-This code can be useful in various ways to support COVID-19 data analysis, decision-making, and public health strategies:
+## ⭐ Featured Projects
 
-Monitoring and Tracking:
+| Project | What It Is |
+|---|---|
+| **Multilevel Computational Modelling** | MSc research project focused on modelling students' academic performance across public secondary schools. |
+| **Rural Digital Finance Hub** | An offline-first digital financial literacy solution designed to improve understanding of basic financial services. |
+| **Community Health Kiosk** | An offline health-screening concept designed to support community-level health data collection and decision-making. |
+| **Livestock Movement Optimization** | A Reinforcement Learning project exploring sustainable livestock movement and grazing management in Namibia. |
+| **Data Analysis Projects** | Practical projects involving data cleaning, EDA, visualization, statistical analysis, and machine learning. |
 
-By visualizing trends of active cases and deaths over time, it helps monitor COVID-19 spread and severity.
-The correlation heatmap reveals relationships among features, providing insights into which factors (like location, or previously confirmed cases) may influence COVID-19 outcomes.
-Trend Forecasting:
+---
 
-The ARIMA time-series forecasting model predicts future trends in active cases. Public health officials can use this to prepare resources, such as hospital beds or medical supplies, in anticipation of potential spikes.
-Severity Prediction:
+## 🛠️ Tools & Technologies
 
-The Random Forest model classifies cases as high or low mortality risk based on factors like the daily growth rate and active cases. This could prioritize high-risk cases, focusing resources on individuals or regions with a greater likelihood of severe outcomes.
-Resource Allocation and Planning:
+**Languages & Data**
+- Python
+- R
+- SQL
+- Excel
 
-With predictive insights, authorities can better allocate resources to areas projected to see higher case numbers, thus improving the response and management of outbreaks.
-Feature importance analysis identifies which factors are most critical in predicting mortality risk, guiding policies or interventions targeting those factors to reduce severe outcomes.
-Policy Development:
+**Data Science**
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
+- Jupyter Notebook
 
-The model can support policy decisions on lockdowns, vaccination drives, or other interventions by showing regions or populations at risk of high case growth or mortality.
-Reporting and Communication:
+**Visualization & BI**
+- Power BI
+- Tableau
 
-Data visualization, including line plots of active cases and feature importance, makes it easier to convey findings to the public or stakeholders. Informative visuals can increase awareness and help the public understand the importance of following safety measures.
+**Design**
+- Figma
+- UI/UX Design
+- Product Design
+- Prototyping
 
-Below is the link to the video demo of the project.     https://drive.google.com/file/d/1T6Yp5VSN_FNXFS7MsBYRUPhleldBpIaB/view?usp=sharing
+**Other Tools**
+- Git & GitHub
+- ODK / KoboToolbox
+- Google Workspace
+
+---
+
+## 📚 Currently Learning
+
+- Machine Learning with Python
+- Computational Statistics
+- Statistical Modelling
+- Data Visualization
+- Advanced Python for Data Science
+- Product Design & User Experience
+
+---
+
+## 🎓 Background
+
+- 🎓 MSc Mathematics — Computational Statistics
+- 🎓 BSc Mathematics
+- 💼 Data Science & Analytics
+- 🎨 Product Design & UI/UX
+- 💡 Technology & Social Innovation
+
+---
+
+## 🌍 Areas of Interest
+
+**Data Science • Computational Statistics • Machine Learning • Mathematics • Education Technology • Health Technology • Product Design • Social Impact**
+
+---
+
+## 📈 Numbers That Matter
+
+- 📊 Data analysis and visualization projects
+- 🤖 Machine learning projects
+- 🎨 Digital product design projects
+- 👩‍🏫 Experience in education and mentorship
+- 🌍 Technology projects focused on real-world problems
+
+---
+
+### 💡 My Goal
+
+> **To combine mathematics, data, and technology to build practical solutions that create meaningful impact.**
+
+Thanks for visiting my profile! ⭐
 
 
 
