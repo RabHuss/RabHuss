@@ -9,17 +9,17 @@ I’m a Data Scientist and Analyst with a strong foundation in Mathematics and a
 
 ---
 
-## 🔍 What I Do
+##  What I Do
 
-- 📊 Analyze, clean, visualize, and interpret data to generate meaningful insights.
-- 🤖 Build and explore Machine Learning models using Python and real-world datasets.
-- 🧮 Apply mathematical and statistical methods to computational and research problems.
-- 🎨 Design practical, user-centered digital products and interfaces.
-- 🌍 Explore technology-driven solutions in education, healthcare, and community development.
+-  Analyze, clean, visualize, and interpret data to generate meaningful insights.
+-  Build and explore Machine Learning models using Python and real-world datasets.
+-  Apply mathematical and statistical methods to computational and research problems.
+-  Design practical, user-centered digital products and interfaces.
+-  Explore technology-driven solutions in education, healthcare, and community development.
 
 ---
 
-## ⭐ Featured Projects
+##  Featured Projects
 
 | Project | What It Is |
 |---|---|
@@ -64,7 +64,7 @@ I’m a Data Scientist and Analyst with a strong foundation in Mathematics and a
 
 ---
 
-## 📚 Currently Learning
+##  Currently Learning
 
 - Machine Learning with Python
 - Computational Statistics
@@ -75,37 +75,37 @@ I’m a Data Scientist and Analyst with a strong foundation in Mathematics and a
 
 ---
 
-## 🎓 Background
+##  Background
 
-- 🎓 MSc Mathematics — Computational Statistics
-- 🎓 BSc Mathematics
-- 💼 Data Science & Analytics
-- 🎨 Product Design & UI/UX
-- 💡 Technology & Social Innovation
+-  MSc Mathematics — Computational Statistics
+-  BSc Mathematics
+-  Data Science & Analytics
+-  Product Design & UI/UX
+-  Technology & Social Innovation
 
 ---
 
-## 🌍 Areas of Interest
+##  Areas of Interest
 
 **Data Science • Computational Statistics • Machine Learning • Mathematics • Education Technology • Health Technology • Product Design • Social Impact**
 
 ---
 
-## 📈 Numbers That Matter
+##  Numbers That Matter
 
-- 📊 Data analysis and visualization projects
-- 🤖 Machine learning projects
-- 🎨 Digital product design projects
-- 👩‍🏫 Experience in education and mentorship
-- 🌍 Technology projects focused on real-world problems
+-  Data analysis and visualization projects
+-  Machine learning projects
+-  Digital product design projects
+-  Experience in education and mentorship
+-  Technology projects focused on real-world problems
 
 ---
 
-### 💡 My Goal
+###  My Goal
 
 > **To combine mathematics, data, and technology to build practical solutions that create meaningful impact.**
 
-Thanks for visiting my profile! ⭐
+Thanks for visiting my profile! 
 
 
 
