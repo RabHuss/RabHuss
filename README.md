@@ -1,6 +1,5 @@
- ### **Rabiatu Hussaini** 
-
-### Data Scientist | Data Analyst | Product Designer | Mathematics Researcher
+` ### **Rabiatu Hussaini** 
+### Data Scientist | Data Analyst | Product Designer | Mathematics Researcher`
 
 I’m a Data Scientist and Analyst with a strong foundation in Mathematics and a growing specialization in Computational Statistics and Machine Learning. I enjoy working with data, building practical digital solutions, and using technology to solve real-world problems.
 
