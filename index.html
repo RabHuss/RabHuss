@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>Rabiatu Hussaini | Data Science, Mathematics, Product Design</title>
+<meta name="description" content="Rabiatu Hussaini is a Data Scientist, Product Designer, UI/UX Designer and Mathematics Researcher working at the intersection of computational statistics, machine learning, data, and human-centered design." />
+<meta name="theme-color" content="#0A0E1A" />
+
+<!--
+  RABIATU HUSSAINI - PERSONAL PORTFOLIO
+  Files: index.html · styles.css · script.js
+
+  PROFILE PICTURE
+  - Drop your photo at: assets/images/rabiatu-hussaini.jpg
+  - Change the path in the element with id="profileAvatar" (data-avatar attribute).
+  - If the file is missing or fails to load, the initials "RH" avatar appears instead.
+
+  LINKS TO BE ADDED LATER:
+  - CV file or download URL
+  - Project links (Multilevel Modelling, Finance Hub, Health Kiosk, Livestock, Data Analysis)
+  - Research paper or project URL
+  - Facebook profile URL
+  - X profile URL
+  - Instagram profile URL
+
+  The contact form uses FormSubmit.co. After the first submission you will get a
+  verification email at rabiatuhussaini1@gmail.com. Click the link inside to activate.
+-->
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet" />
+
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<a class="skip-link" href="#main-content">Skip to main content</a>
+
+<header class="nav" id="siteNav">
+  <div class="container nav__inner">
+    <a class="brand" href="#/" aria-label="Rabiatu Hussaini, home">
+      <span class="brand__mark" aria-hidden="true">RH</span>
+      <span class="brand__name">Rabiatu Hussaini</span>
+    </a>
+
+    <nav class="nav__links" aria-label="Primary">
+      <a href="#/" data-nav="home">Home</a>
+      <a href="#about" data-nav="about">About</a>
+      <a href="#projects" data-nav="projects">Projects</a>
+      <a href="#skills" data-nav="skills">Skills</a>
+      <a href="#research" data-nav="research">Research</a>
+      <a href="#/contact" data-nav="contact">Contact</a>
+    </nav>
+
+    <div class="nav__actions">
+      <button class="theme-toggle" id="themeToggle" aria-label="Switch to dark mode" title="Toggle theme">
+        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z"/></svg>
+        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><path d="M12 2v2"/><path d="M12 20v2"/><path d="M2 12h2"/><path d="M20 12h2"/><path d="m4.9 4.9 1.4 1.4"/><path d="m17.7 17.7 1.4 1.4"/><path d="m19.1 4.9-1.4 1.4"/><path d="m6.3 17.7-1.4 1.4"/></svg>
+      </button>
+
+      <a class="btn btn--primary nav__cta" href="#/contact">Let's Work Together</a>
+
+      <button class="nav__toggle" id="navToggle" aria-expanded="false" aria-controls="navPanel" aria-label="Open navigation menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+
+  <div class="nav__panel" id="navPanel">
+    <a href="#/" data-nav="home">Home</a>
+    <a href="#about" data-nav="about">About</a>
+    <a href="#projects" data-nav="projects">Projects</a>
+    <a href="#skills" data-nav="skills">Skills</a>
+    <a href="#research" data-nav="research">Research</a>
+    <a href="#/contact" data-nav="contact">Contact</a>
+    <a class="btn btn--primary btn--block" href="#/contact">Let's Work Together</a>
+  </div>
+</header>
+
+<!-- Page 1: Home and About -->
+<div class="page is-active" id="page-home" data-page="home">
+<main id="main-content">
+
+  <section class="hero" id="home" aria-labelledby="hero-heading">
+    <div class="container hero__grid">
+      <div class="hero__copy">
+        <div class="profile reveal"
+             id="profileAvatar"
+             data-avatar="assets/rabiatu-hussaini.jpg"
+             data-initials="RH"
+             data-name="Rabiatu Hussaini">
+          <div class="profile__ring">
+            <div class="profile__inner">
+              <span class="profile__fallback" aria-hidden="true">RH</span>
+              <img class="profile__img"
+                   alt="Portrait of Rabiatu Hussaini"
+                   width="240" height="240"
+                   decoding="async"
+                   fetchpriority="high" />
+            </div>
+          </div>
+          <span class="profile__status" aria-hidden="true" title="Available for collaboration"></span>
+        </div>
+        <!-- ===================== END PROFILE PICTURE ================== -->
+
+        <p class="eyebrow reveal">Data Science, Mathematics, Product Design</p>
+        <h1 id="hero-heading" class="reveal reveal--d1">
+          Turning Mathematics &amp; Data Into <span class="grad-text">Meaningful Solutions.</span>
+        </h1>
+        <p class="hero__lead reveal reveal--d2">
+          I am a Data Scientist, Product Designer, UI/UX Designer and Mathematics Researcher
+          working at the intersection of computational statistics, machine learning, data,
+          human-centered design, and digital product experiences.
+        </p>
+        <div class="hero__actions reveal reveal--d3">
+          <a class="btn btn--primary" href="#projects">View My Work</a>
+          <a class="btn btn--ghost" href="#/contact">Let's Connect</a>
+        </div>
+        <p class="hero__meta reveal reveal--d4">
+          <a href="cv.pdf" class="textlink">Download CV</a>
+        </p>
+      </div>
+
+      <div class="hero__visual reveal reveal--d2">
+        <div class="hero__canvas" id="heroCanvas"></div>
+        <div class="hero__chips" aria-hidden="true">
+          <span class="chip"><i></i>Computational Statistics</span>
+          <span class="chip chip--violet"><i></i>Machine Learning</span>
+          <span class="chip chip--teal"><i></i>Data Analytics</span>
+          <span class="chip"><i></i>Product Design</span>
+          <span class="chip chip--violet"><i></i>UI/UX Design</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--tight snapshot" aria-labelledby="snapshot-heading">
+    <div class="container">
+      <div class="snapshot__head reveal">
+        <p class="eyebrow">Professional Snapshot</p>
+        <h2 id="snapshot-heading">Data. Mathematics. Design. Technology. Impact.</h2>
+        <p>
+          Rabiatu combines a strong foundation in Mathematics with computational statistics,
+          machine learning, data analytics, UI/UX design, and product design to explore
+          practical solutions to real-world problems.
+        </p>
+      </div>
+
+      <div class="snapshot__grid">
+        <article class="snap-card reveal">
+          <span class="snap-card__icon" aria-hidden="true">
+            <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M3 20h18"/><rect x="4" y="11" width="3.4" height="6" rx="1"/><rect x="10.3" y="6" width="3.4" height="11" rx="1"/><rect x="16.6" y="13" width="3.4" height="4" rx="1"/></svg>
+          </span>
+          <h3>Data Science &amp; Analytics</h3>
+          <p>Data analysis, machine learning, statistical modelling, and data-driven insights.</p>
+        </article>
+
+        <article class="snap-card reveal reveal--d1">
+          <span class="snap-card__icon" aria-hidden="true">
+            <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5h16"/><path d="M7 5v14"/><path d="M17 5v14"/><path d="M4 19h16"/><circle cx="12" cy="12" r="2.4"/></svg>
+          </span>
+          <h3>Mathematics &amp; Research</h3>
+          <p>Computational statistics, mathematical modelling, and quantitative research.</p>
+        </article>
+
+        <article class="snap-card reveal reveal--d2">
+          <span class="snap-card__icon" aria-hidden="true">
+            <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="14" rx="2.2"/><path d="M3 9h18"/><path d="M8 21h8"/><path d="M12 18v3"/></svg>
+          </span>
+          <h3>Product &amp; UX Design</h3>
+          <p>User research, information architecture, user-centered interfaces, prototyping, and practical digital products.</p>
+        </article>
+
+        <article class="snap-card reveal reveal--d3">
+          <span class="snap-card__icon" aria-hidden="true">
+            <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.5s-7-4.3-7-9.4A4.1 4.1 0 0 1 12 8.4a4.1 4.1 0 0 1 7 2.7c0 5.1-7 9.4-7 9.4Z"/></svg>
+          </span>
+          <h3>Social Impact</h3>
+          <p>Technology-driven solutions for education, healthcare, and community development.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="about" aria-labelledby="about-heading">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">About</p>
+        <h2 id="about-heading">About Rabiatu</h2>
+      </div>
+      
+      <div class="profile reveal"
+      id="profileAvatar"
+      data-avatar="rabiatu-hussaini.jpg"
+      data-initials="RH"
+      data-name="Rabiatu Hussaini">
+      <div class="profile__ring">
+      <div class="profile__inner">
+      <span class="profile__fallback" aria-hidden="true">RH</span>
+      <img class="profile__img"
+      alt="Portrait of Rabiatu Hussaini"
+      width="240" height="240"
+      decoding="async"
+      fetchpriority="high" />
+      </div>
+      </div>
+      <span class="profile__status" aria-hidden="true" title="Available for collaboration"></span>
+      </div>
+
+      <div class="about__grid">
+        <div class="about__bio reveal">
+          <p>
+            <strong>Rabiatu Hussaini</strong> is a Data Scientist and Analyst with a strong foundation
+            in Mathematics and a growing specialization in Computational Statistics and Machine Learning.
+            She enjoys working with data, building practical digital solutions, designing intuitive user
+            experiences, and using technology to solve real-world problems.
+          </p>
+          <p>
+            Her work sits at the meeting point of quantitative reasoning and human-centered design:
+            asking rigorous questions of data, then shaping the answers into interfaces and products
+            that people can actually understand and use.
+          </p>
+
+          <div class="about__facets" aria-label="Areas of focus">
+            <span class="facet">MSc Mathematics, Computational Statistics</span>
+            <span class="facet">BSc Mathematics</span>
+            <span class="facet">Data Science &amp; Analytics</span>
+            <span class="facet">Product &amp; UX Design</span>
+            <span class="facet">Technology &amp; Social Innovation</span>
+          </div>
+        </div>
+
+        <div class="reveal reveal--d1">
+          <ul class="timeline">
+            <li>
+              <h3>Research &amp; Analytical Thinking</h3>
+              <p>Framing questions rigorously, choosing appropriate methods, and interpreting results with care.</p>
+            </li>
+            <li>
+              <h3>Data-Driven Problem Solving</h3>
+              <p>Cleaning, exploring, and modelling data to surface patterns that inform real decisions.</p>
+            </li>
+            <li>
+              <h3>UI/UX Design Process</h3>
+              <p>Moving from understanding needs to defining, designing, prototyping, and refining interfaces.</p>
+            </li>
+            <li>
+              <h3>Product Thinking</h3>
+              <p>Considering context, constraints, and usefulness. Not just how something looks, but how it works.</p>
+            </li>
+            <li>
+              <h3>Human-Centered Technology</h3>
+              <p>Designing for clarity, accessibility, and the realities of the people who will use the product.</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--alt" aria-labelledby="expertise-heading">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">Areas of Expertise</p>
+        <h2 id="expertise-heading">What I Do</h2>
+        <p>A multidisciplinary practice spanning data, mathematics, research, and product design.</p>
+      </div>
+
+      <div class="expertise__grid" id="expertiseGrid"></div>
+
+      <div class="reveal" style="margin-top:clamp(34px,4.5vw,52px);">
+        <p class="eyebrow eyebrow--plain" style="justify-content:center;display:flex;color:var(--slate-2);">UI/UX Process</p>
+        <ul class="pipeline" aria-label="UI/UX design process">
+          <li>Understand</li>
+          <li>Define</li>
+          <li>Design</li>
+          <li>Prototype</li>
+          <li>Refine</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+</main>
+</div>
+
+<!-- Page 2: Projects, Skills, Research and related -->
+<div class="page" id="page-work" data-page="work">
+<main id="work-main">
+
+  <section class="section" id="projects" aria-labelledby="projects-heading">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">Featured Projects</p>
+        <h2 id="projects-heading">Selected Work</h2>
+        <p>Research, data, and digital solutions designed around real-world problems.</p>
+      </div>
+
+      <div class="projects__grid" id="projectsGrid"></div>
+    </div>
+  </section>
+
+  <section class="section insight" aria-labelledby="insight-heading">
+    <div class="dotgrid" aria-hidden="true"></div>
+    <div class="container" style="position:relative;">
+      <div class="section-head reveal" style="max-width:760px;">
+        <p class="eyebrow">Data Storytelling</p>
+        <h2 id="insight-heading">From Data to Insight</h2>
+        <p>A simple, repeatable path from a well-framed question to something that can create value.</p>
+      </div>
+
+      <ul class="pipeline pipeline--dark reveal" aria-label="From data to insight process">
+        <li>Question</li>
+        <li>Data</li>
+        <li>Analysis</li>
+        <li>Model</li>
+        <li>Insight</li>
+        <li>Impact</li>
+      </ul>
+
+      <p class="insight__lead reveal">
+        Rabiatu approaches problems by combining mathematical reasoning, data analysis,
+        computational methods, UI/UX design, and user-centered thinking.
+      </p>
+
+      <div class="insight__sub reveal">
+        <h3>Design Process</h3>
+        <p>
+          Alongside the analytical path runs a design path. This process supports the creation of
+          practical, understandable, and human-centered digital solutions.
+        </p>
+        <ul class="pipeline pipeline--dark" style="justify-content:flex-start;margin-top:26px;" aria-label="Design process">
+          <li>Understand</li>
+          <li>Define</li>
+          <li>Design</li>
+          <li>Prototype</li>
+          <li>Refine</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--alt" id="skills" aria-labelledby="skills-heading">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">Skills &amp; Technologies</p>
+        <h2 id="skills-heading">Tools I Work With</h2>
+        <p>A growing toolkit across data science, analytics, design, and research workflows.</p>
+      </div>
+
+      <div class="skills__grid" id="skillsGrid"></div>
+    </div>
+  </section>
+
+  <section class="section" id="research" aria-labelledby="research-heading">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">Research</p>
+        <h2 id="research-heading">Research &amp; Computational Thinking</h2>
+      </div>
+
+      <div class="research__grid">
+        <div class="research__text reveal">
+          <p>
+            Mathematics and computational statistics sit at the core of how Rabiatu approaches
+            problems: providing the structure to ask precise questions and the methods to answer them.
+          </p>
+
+          <div class="research__feature">
+            <h3>Multilevel Computational Modelling</h3>
+            <p>
+              The MSc research focuses on modelling students' academic performance across public
+              secondary schools. Because students are grouped within schools, and schools sit within
+              wider regional contexts, the work uses multilevel modelling, a statistical approach
+              designed for data that is naturally nested.
+            </p>
+          </div>
+
+          <p>
+            Rather than treating every student as an isolated data point, multilevel models recognise
+            that context matters. This makes it possible to explore how individual and group-level
+            factors relate to academic performance in a way that is more faithful to the real structure
+            of the data.
+          </p>
+
+          <div>
+            <a href="#" class="btn btn--ghost">Explore Research</a>
+          </div>
+        </div>
+
+        <div class="reveal reveal--d1">
+          <div class="levels" role="img" aria-label="Diagram showing multilevel data structure: students nested within schools, nested within regions and contextual factors, feeding into a statistical model, producing insights.">
+            <div class="level level--1">
+              <span class="level__dots" aria-hidden="true"><span></span><span></span><span></span><span></span></span>
+              <span class="level__label">Students</span>
+              <span class="level__sub">Level 1</span>
+            </div>
+            <div class="level-connector" aria-hidden="true"></div>
+
+            <div class="level level--2">
+              <span class="level__dots" aria-hidden="true"><span></span><span></span><span></span></span>
+              <span class="level__label">Schools</span>
+              <span class="level__sub">Level 2</span>
+            </div>
+            <div class="level-connector" aria-hidden="true"></div>
+
+            <div class="level level--3">
+              <span class="level__dots" aria-hidden="true"><span></span><span></span></span>
+              <span class="level__label">Regions &amp; contextual factors</span>
+              <span class="level__sub">Level 3</span>
+            </div>
+            <div class="level-connector" aria-hidden="true"></div>
+
+            <div class="level level--4">
+              <span class="level__dots" aria-hidden="true"><span></span><span></span></span>
+              <span class="level__label">Statistical model</span>
+              <span class="level__sub">Estimation</span>
+            </div>
+            <div class="level-connector" aria-hidden="true"></div>
+
+            <div class="level level--5">
+              <span class="level__dots" aria-hidden="true"><span></span><span></span></span>
+              <span class="level__label">Insights</span>
+              <span class="level__sub">Interpretation</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--alt" aria-labelledby="learning-heading">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">Growth Path</p>
+        <h2 id="learning-heading">Currently Exploring</h2>
+        <p>Areas Rabiatu is actively learning and deepening. A path of continuous growth.</p>
+      </div>
+
+      <div class="learning__grid" id="learningGrid"></div>
+
+      <p class="learning__note reveal">
+        These are active areas of study and exploration, not claimed areas of completed expertise.
+      </p>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="approach-heading">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">Values &amp; Working Philosophy</p>
+        <h2 id="approach-heading">How I Approach Problems</h2>
+        <p>Mathematics, data, design, and impact connected by a consistent way of working.</p>
+      </div>
+
+      <div class="approach__grid">
+        <article class="approach-card reveal">
+          <span class="approach-card__num" aria-hidden="true">01</span>
+          <h3>Understand</h3>
+          <p>Start by understanding the real problem, user needs, and context.</p>
+          <span class="approach-card__bar" aria-hidden="true"></span>
+        </article>
+        <article class="approach-card reveal reveal--d1">
+          <span class="approach-card__num" aria-hidden="true">02</span>
+          <h3>Analyze</h3>
+          <p>Use mathematics, statistics, and data to investigate the problem.</p>
+          <span class="approach-card__bar" aria-hidden="true"></span>
+        </article>
+        <article class="approach-card reveal reveal--d2">
+          <span class="approach-card__num" aria-hidden="true">03</span>
+          <h3>Design</h3>
+          <p>Create practical, accessible, and user-centered solutions.</p>
+          <span class="approach-card__bar" aria-hidden="true"></span>
+        </article>
+        <article class="approach-card reveal reveal--d3">
+          <span class="approach-card__num" aria-hidden="true">04</span>
+          <h3>Impact</h3>
+          <p>Focus on solutions that can create meaningful real-world value.</p>
+          <span class="approach-card__bar" aria-hidden="true"></span>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--alt" aria-labelledby="impact-heading">
+    <div class="container">
+      <div class="impact__grid">
+        <div>
+          <div class="section-head reveal" style="margin-bottom:26px;">
+            <p class="eyebrow">Social Impact</p>
+            <h2 id="impact-heading">Technology With Purpose</h2>
+            <p>
+              Rabiatu is interested in how data, thoughtful design, and appropriate technology can
+              support communities, particularly where resources and connectivity are limited.
+            </p>
+          </div>
+
+          <ul class="impact__list reveal reveal--d1">
+            <li><i aria-hidden="true"></i>Education Technology</li>
+            <li><i aria-hidden="true"></i>Health Technology</li>
+            <li><i aria-hidden="true"></i>Community Development</li>
+            <li><i aria-hidden="true"></i>Social Innovation</li>
+            <li><i aria-hidden="true"></i>Data-driven decision-making</li>
+            <li><i aria-hidden="true"></i>Human-centered digital products</li>
+          </ul>
+        </div>
+
+        <div class="reveal reveal--d2">
+          <div class="impact__flow" role="img" aria-label="Relationship diagram: Data leads to Technology, which serves People, producing Impact.">
+            <div class="impact-node"><span class="impact-node__dot" aria-hidden="true"></span><span>Data</span></div>
+            <div class="impact-arrow" aria-hidden="true"></div>
+            <div class="impact-node"><span class="impact-node__dot" aria-hidden="true"></span><span>Technology</span></div>
+            <div class="impact-arrow" aria-hidden="true"></div>
+            <div class="impact-node"><span class="impact-node__dot" aria-hidden="true"></span><span>People</span></div>
+            <div class="impact-arrow" aria-hidden="true"></div>
+            <div class="impact-node"><span class="impact-node__dot" aria-hidden="true"></span><span>Impact</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+</div>
+
+<!-- Page 3: Contact -->
+<div class="page" id="page-contact" data-page="contact">
+<main id="contact-main">
+
+  <section class="contact-hero">
+    <div class="container">
+      <p class="eyebrow reveal">Contact</p>
+      <h1 class="reveal reveal--d1">Have a Problem Worth Exploring?</h1>
+      <p class="reveal reveal--d2">
+        Whether it is a data problem, research question, digital product idea, UI/UX challenge,
+        or social-impact opportunity, I would love to connect.
+      </p>
+    </div>
+  </section>
+
+  <section class="section section--tight" aria-label="Contact channels" style="padding-top:10px;">
+    <div class="container">
+
+      <div class="contact-grid">
+
+        <form class="contact-form reveal" id="contactForm" action="https://formsubmit.co/rabiatuhussaini1@gmail.com" method="POST">
+          <input type="hidden" name="_subject" value="New message from portfolio site">
+          <input type="hidden" name="_captcha" value="false">
+          <input type="hidden" name="_template" value="table">
+          <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off" aria-hidden="true">
+
+          <div class="contact-form__head">
+            <h2>Send a Message</h2>
+            <p>Fill in the form and I will get back to you as soon as I can.</p>
+          </div>
+
+          <div class="form-row form-row--two">
+            <div class="form-field">
+              <label for="cf-name">Your Name</label>
+              <input type="text" id="cf-name" name="name" required autocomplete="name" placeholder="Your name">
+            </div>
+            <div class="form-field">
+              <label for="cf-email">Your Email</label>
+              <input type="email" id="cf-email" name="email" required autocomplete="email" placeholder="you@example.com">
+            </div>
+          </div>
+
+          <div class="form-field">
+            <label for="cf-subject">Subject</label>
+            <input type="text" id="cf-subject" name="subject" placeholder="What is this about?">
+          </div>
+
+          <div class="form-field">
+            <label for="cf-message">Message</label>
+            <textarea id="cf-message" name="message" required placeholder="Tell me about your idea, question, or project..."></textarea>
+          </div>
+
+          <div class="form-actions">
+            <button type="submit" class="btn btn--primary">Send Message</button>
+            <span class="form-note">Your message goes straight to my inbox.</span>
+          </div>
+        </form>
+
+        <div class="email-card reveal">
+          <div>
+            <span class="email-card__label">Email</span>
+            <a class="email-card__address" href="mailto:rabiatuhussaini1@gmail.com">rabiatuhussaini1@gmail.com</a>
+            <p>Prefer to write directly? Send me an email anytime.</p>
+          </div>
+          <a class="btn btn--primary" href="mailto:rabiatuhussaini1@gmail.com">Send an Email</a>
+        </div>
+
+        <a class="social reveal" href="https://github.com/RabHuss" target="_blank" rel="noopener noreferrer">
+          <span class="social__icon" aria-hidden="true">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.58 2 12.23c0 4.51 2.87 8.34 6.84 9.69.5.1.68-.22.68-.49 0-.24-.01-.87-.01-1.7-2.78.62-3.37-1.37-3.37-1.37-.46-1.18-1.11-1.5-1.11-1.5-.91-.63.07-.62.07-.62 1 .07 1.53 1.05 1.53 1.05.9 1.56 2.35 1.11 2.92.85.09-.66.35-1.11.63-1.37-2.22-.26-4.56-1.14-4.56-5.06 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.3.1-2.71 0 0 .84-.28 2.75 1.05a9.3 9.3 0 0 1 5 0c1.91-1.33 2.75-1.05 2.75-1.05.55 1.41.2 2.45.1 2.71.64.72 1.03 1.63 1.03 2.75 0 3.93-2.34 4.79-4.57 5.05.36.32.68.94.68 1.9 0 1.37-.01 2.47-.01 2.81 0 .27.18.6.69.49A10.02 10.02 0 0 0 22 12.23C22 6.58 17.52 2 12 2Z"/></svg>
+          </span>
+          <span class="social__meta">
+            <strong>GitHub</strong>
+            <small>Rabiatu Hussaini</small>
+          </span>
+          <span class="social__arrow" aria-hidden="true">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg>
+          </span>
+        </a>
+
+        <a class="social reveal reveal--d1" href="http://www.linkedin.com/in/rabiatu-hussaini-592b26317" target="_blank" rel="noopener noreferrer">
+          <span class="social__icon" aria-hidden="true">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5ZM3 9h4v12H3V9Zm6 0h3.8v1.7h.05c.53-1 1.83-2.05 3.77-2.05C20.4 8.65 21 11 21 14.1V21h-4v-6.1c0-1.45-.03-3.3-2-3.3s-2.3 1.57-2.3 3.2V21H9V9Z"/></svg>
+          </span>
+          <span class="social__meta">
+            <strong>LinkedIn</strong>
+            <small>Rabiatu Hussaini</small>
+          </span>
+          <span class="social__arrow" aria-hidden="true">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg>
+          </span>
+        </a>
+
+        <a class="social reveal" href="https://wa.me/2347062621859" target="_blank" rel="noopener noreferrer">
+          <span class="social__icon" aria-hidden="true">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M19.05 4.91A10.06 10.06 0 0 0 12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38c1.45.79 3.08 1.21 4.79 1.21h.01c5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01ZM12.05 20.15h-.01a8.2 8.2 0 0 1-4.18-1.15l-.3-.18-3.11.82.83-3.04-.2-.31a8.19 8.19 0 0 1-1.26-4.38c0-4.54 3.7-8.23 8.24-8.23 2.2 0 4.27.86 5.83 2.42a8.18 8.18 0 0 1 2.41 5.82c0 4.54-3.7 8.23-8.25 8.23Zm4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.13-.17.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.12-1.05-.39-2-1.23-.74-.66-1.24-1.47-1.38-1.72-.14-.25-.02-.38.11-.51.11-.11.25-.29.37-.43.12-.14.17-.25.25-.41.08-.17.04-.31-.02-.43-.06-.12-.56-1.34-.76-1.84-.2-.48-.4-.42-.56-.42-.14 0-.31-.02-.48-.02a.92.92 0 0 0-.66.31c-.23.25-.87.85-.87 2.07 0 1.22.89 2.4 1.01 2.56.12.17 1.75 2.67 4.24 3.74.59.25 1.05.41 1.41.52.59.19 1.13.16 1.56.1.48-.07 1.47-.6 1.67-1.18.21-.58.21-1.08.14-1.18-.06-.11-.23-.17-.48-.29Z"/></svg>
+          </span>
+          <span class="social__meta">
+            <strong>WhatsApp</strong>
+            <small>Rabiatu Hussaini</small>
+          </span>
+          <span class="social__arrow" aria-hidden="true">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg>
+          </span>
+        </a>
+
+        <!-- To be added: Facebook profile URL -->
+        <a class="social reveal reveal--d1" href="#">
+          <span class="social__icon" aria-hidden="true">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M13.6 21v-7.7h2.6l.5-3.1h-3.1V8.3c0-.9.3-1.5 1.6-1.5h1.6V4a21 21 0 0 0-2.4-.1c-2.4 0-4 1.5-4 4.1v2.2H8v3.1h2.4V21h3.2Z"/></svg>
+          </span>
+          <span class="social__meta">
+            <strong>Facebook</strong>
+            <small>Rabiatu Hussaini</small>
+          </span>
+          <span class="social__arrow" aria-hidden="true">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg>
+          </span>
+        </a>
+
+        <!-- To be added: X profile URL -->
+        <a class="social reveal" href="#">
+          <span class="social__icon" aria-hidden="true">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.5 3h3.2l-7 8 8.2 10h-6.4l-5-6.1L4.7 21H1.5l7.5-8.6L1.1 3h6.6l4.5 5.6L17.5 3Zm-1.1 16.1h1.8L7.7 4.8H5.8l10.6 14.3Z"/></svg>
+          </span>
+          <span class="social__meta">
+            <strong>X</strong>
+            <small>Rabiatu Hussaini</small>
+          </span>
+          <span class="social__arrow" aria-hidden="true">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg>
+          </span>
+        </a>
+
+        <!-- To be added: Instagram profile URL -->
+        <a class="social reveal reveal--d1" href="#">
+          <span class="social__icon" aria-hidden="true">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="3.8"/><circle cx="17.4" cy="6.6" r="1.1" fill="currentColor" stroke="none"/></svg>
+          </span>
+          <span class="social__meta">
+            <strong>Instagram</strong>
+            <small>Rabiatu Hussaini</small>
+          </span>
+          <span class="social__arrow" aria-hidden="true">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg>
+          </span>
+        </a>
+
+      </div>
+
+    </div>
+  </section>
+
+</main>
+</div>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer__top">
+      <div class="footer__brand">
+        <h2>Rabiatu Hussaini</h2>
+        <p>Data Scientist | Product Designer | UI/UX Designer | Mathematics Researcher</p>
+      </div>
+
+      <nav class="footer__social" aria-label="Social links">
+        <a href="https://github.com/RabHuss" target="_blank" rel="noopener noreferrer" aria-label="GitHub" title="GitHub">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2C6.48 2 2 6.58 2 12.23c0 4.51 2.87 8.34 6.84 9.69.5.1.68-.22.68-.49 0-.24-.01-.87-.01-1.7-2.78.62-3.37-1.37-3.37-1.37-.46-1.18-1.11-1.5-1.11-1.5-.91-.63.07-.62.07-.62 1 .07 1.53 1.05 1.53 1.05.9 1.56 2.35 1.11 2.92.85.09-.66.35-1.11.63-1.37-2.22-.26-4.56-1.14-4.56-5.06 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.3.1-2.71 0 0 .84-.28 2.75 1.05a9.3 9.3 0 0 1 5 0c1.91-1.33 2.75-1.05 2.75-1.05.55 1.41.2 2.45.1 2.71.64.72 1.03 1.63 1.03 2.75 0 3.93-2.34 4.79-4.57 5.05.36.32.68.94.68 1.9 0 1.37-.01 2.47-.01 2.81 0 .27.18.6.69.49A10.02 10.02 0 0 0 22 12.23C22 6.58 17.52 2 12 2Z"/></svg>
+        </a>
+        <a href="http://www.linkedin.com/in/rabiatu-hussaini-592b26317" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" title="LinkedIn">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5ZM3 9h4v12H3V9Zm6 0h3.8v1.7h.05c.53-1 1.83-2.05 3.77-2.05C20.4 8.65 21 11 21 14.1V21h-4v-6.1c0-1.45-.03-3.3-2-3.3s-2.3 1.57-2.3 3.2V21H9V9Z"/></svg>
+        </a>
+        <a href="https://wa.me/2347062621859" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp" title="WhatsApp">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M19.05 4.91A10.06 10.06 0 0 0 12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38c1.45.79 3.08 1.21 4.79 1.21h.01c5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01ZM12.05 20.15h-.01a8.2 8.2 0 0 1-4.18-1.15l-.3-.18-3.11.82.83-3.04-.2-.31a8.19 8.19 0 0 1-1.26-4.38c0-4.54 3.7-8.23 8.24-8.23 2.2 0 4.27.86 5.83 2.42a8.18 8.18 0 0 1 2.41 5.82c0 4.54-3.7 8.23-8.25 8.23Zm4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.13-.17.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.12-1.05-.39-2-1.23-.74-.66-1.24-1.47-1.38-1.72-.14-.25-.02-.38.11-.51.11-.11.25-.29.37-.43.12-.14.17-.25.25-.41.08-.17.04-.31-.02-.43-.06-.12-.56-1.34-.76-1.84-.2-.48-.4-.42-.56-.42-.14 0-.31-.02-.48-.02a.92.92 0 0 0-.66.31c-.23.25-.87.85-.87 2.07 0 1.22.89 2.4 1.01 2.56.12.17 1.75 2.67 4.24 3.74.59.25 1.05.41 1.41.52.59.19 1.13.16 1.56.1.48-.07 1.47-.6 1.67-1.18.21-.58.21-1.08.14-1.18-.06-.11-.23-.17-.48-.29Z"/></svg>
+        </a>
+        <!-- To be added: Facebook profile URL 
+        <a href="#" aria-label="Facebook" title="Facebook">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M13.6 21v-7.7h2.6l.5-3.1h-3.1V8.3c0-.9.3-1.5 1.6-1.5h1.6V4a21 21 0 0 0-2.4-.1c-2.4 0-4 1.5-4 4.1v2.2H8v3.1h2.4V21h3.2Z"/></svg>
+        </a>-->
+        <!-- To be added: X profile URL -->
+        <a href="#" aria-label="X" title="X">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.5 3h3.2l-7 8 8.2 10h-6.4l-5-6.1L4.7 21H1.5l7.5-8.6L1.1 3h6.6l4.5 5.6L17.5 3Zm-1.1 16.1h1.8L7.7 4.8H5.8l10.6 14.3Z"/></svg>
+        </a>
+        <!-- To be added: Instagram profile URL -->
+        <a href="#" aria-label="Instagram" title="Instagram">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="3.8"/><circle cx="17.4" cy="6.6" r="1.1" fill="currentColor" stroke="none"/></svg>
+        </a>
+      </nav>
+    </div>
+
+    <div class="footer__bottom">
+      <p>&copy; 2026 Rabiatu Hussaini. All rights reserved.</p>
+      <p><a class="textlink" href="#/">Back to top</a></p>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js" defer></script>
+</body>
+</html>
